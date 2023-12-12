@@ -10,7 +10,7 @@ body {
 }
 
 
-/* Navbar */
+/** Navbar **/
 nav {
     display: flex;
     justify-content: space-between;
@@ -42,3 +42,27 @@ nav a {
     /* background-color: blue; */
     text-shadow: 1px 1.5px 5px blue;
 }
+
+
+/** Welcome Section **/ 
+.welcome-section {
+    text-align: center;
+    padding: 10px 25px;
+} 
+
+.welcome-btn {
+    background-color: #fff;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    color: skyblue;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.welcome-btn:hover {
+    box-shadow: 1px 1px 10px skyblue, 
+                -1px -1px 10px skyblue;
+} 
