@@ -16,6 +16,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: skyblue;
+    padding: 10px;
 }
 
 nav a {
@@ -23,10 +24,21 @@ nav a {
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-    padding: 20px;
+    padding: 10px 15px;
     cursor: pointer;
+} 
+
+.logo {
+    font-size: 25px;
+    text-shadow: 1px 1.5px 0 blue;
+} 
+
+.logo:hover {
+    text-shadow: 1px 1.5px 5px blue;
 }
 
-.nav-links:hover {
-    color:lemonchiffon;
+.nav-link:hover {
+    /* color:lemonchiffon; */
+    /* background-color: blue; */
+    text-shadow: 1px 1.5px 5px blue;
 }
