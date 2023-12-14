@@ -33,7 +33,7 @@ nav a {
     text-shadow: 1px 1.5px 0 blue;
 } 
 
-.logo:hover {
+.logo:hover, .active {
     text-shadow: 1px 1.5px 5px blue;
 }
 
