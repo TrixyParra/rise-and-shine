@@ -43,6 +43,44 @@ nav a {
     text-shadow: 1px 1.5px 5px blue;
 }
 
+    /* Navbar Toggle */
+.nav-toggle {
+    cursor: pointer; 
+    display: none;
+    padding: 0 15px;
+}    
+    
+.nav-toggle div {
+    width: 35px; 
+    height: 3px;
+    margin: 5px 0;
+    background-color: blue;
+    transition: 0.4s;
+}
+
+.nav-toggle.is-active div:nth-child(1) {
+    transform: rotate(45deg) translate(10px, 2px);
+}
+
+.nav-toggle.is-active div:nth-child(2) {
+    background-color: transparent;
+}
+
+.nav-toggle.is-active div:nth-child(3) {
+    transform: rotate(-45deg) translate(10px, -1px);
+}
+    
+@media only screen and (max-width: 550px) {
+    .nav-links {
+        display: none;
+    }
+        
+    .nav-toggle {
+        display: block;
+    }
+}
+/** End of Navbar **/
+
 
 /** Welcome Section **/ 
 .welcome-section {
