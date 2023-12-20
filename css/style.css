@@ -124,6 +124,12 @@ nav a {
         display: block;
     }
 }
+
+@media only screen and (min-width: 550px) {
+    .mobile-menu {
+        display: none;
+    }
+}
 /** End of Navbar **/
 
 
